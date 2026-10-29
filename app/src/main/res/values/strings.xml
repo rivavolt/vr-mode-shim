@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">vr-mode-shim</string>
-    <string name="xposed_description">Answers Activity.setVrModeEnabled with success on a framework that no longer has a VR manager, so Daydream and other Google VR apps start instead of crashing.</string>
+    <string name="xposed_description">Declares the VR features and answers Activity.setVrModeEnabled with success on a framework that no longer has a VR manager, so Daydream and other Google VR apps run.</string>
 </resources>
